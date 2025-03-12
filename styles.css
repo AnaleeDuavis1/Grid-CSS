@@ -1,0 +1,52 @@
+.container {
+    background-color:#ffffbf;
+    border: 2px solid black;
+    display: grid;
+    grid-template-rows: repeat(4, 100px);
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+
+.item-1 {
+    background-color: #b0ff95;
+    border: 2px dashed #ff0034;
+
+    text-align: center;
+    color: black;
+    font-weight: 900;
+}
+.item-2 {
+    background-color: #55ff58;
+    border: 2px dashed #ff0034;
+    text-align: center;
+    color: black;
+    font-weight: 900;
+}
+.item-3 {
+background-color: #95ffcc;
+    border: 2px dashed #ff0034;
+    text-align: center; 
+    color: black;
+    font-weight: 900;
+}
+.item-4 {
+background-color: #1562ff;
+    border: 2px dashed #ff0034;
+    text-align: center;
+    color: black;
+    font-weight: 900;
+}
+.item-5 {
+background-color: #ff00dc;
+    border: 2px dashed #ff0034;
+    text-align: center;
+    color: black;
+    font-weight: 900;
+}
+
+.item-6 {
+background-color: #ffc700;
+    border: 2px dashed #ff0034;
+    text-align: center;
+    color: black;
+    font-weight: 900;
+}
